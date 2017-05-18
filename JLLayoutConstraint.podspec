@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name          = "JLLayoutConstraint"
-  s.version       = "0.0.1"
+  s.version       = "0.0.2"
   s.summary       = "A until for layout constraint"
   s.description   = <<-DESC
                   It is a until to add layout constraint.
