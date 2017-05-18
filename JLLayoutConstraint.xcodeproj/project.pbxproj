@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBE96AC91ECC39B20078DA64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE96AC81ECC39B20078DA64 /* main.m */; };
+		EBE96ACC1ECC39B20078DA64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE96ACB1ECC39B20078DA64 /* AppDelegate.m */; };
+		EBE96ACF1ECC39B20078DA64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE96ACE1ECC39B20078DA64 /* ViewController.m */; };
+		EBE96AD21ECC39B20078DA64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE96AD01ECC39B20078DA64 /* Main.storyboard */; };
+		EBE96AD41ECC39B20078DA64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBE96AD31ECC39B20078DA64 /* Assets.xcassets */; };
+		EBE96AD71ECC39B20078DA64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBE96AD51ECC39B20078DA64 /* LaunchScreen.storyboard */; };
+		EBE96AE41ECC3B3C0078DA64 /* JLConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE96AE01ECC3B3C0078DA64 /* JLConstraintMaker.m */; };
+		EBE96AE51ECC3B3C0078DA64 /* UIView+JLAddConstraints.m in Sources */ = {isa = PBXBuildFile; fileRef = EBE96AE31ECC3B3C0078DA64 /* UIView+JLAddConstraints.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EBE96AC41ECC39B20078DA64 /* JLLayoutConstraint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLLayoutConstraint.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBE96AC81ECC39B20078DA64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBE96ACA1ECC39B20078DA64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBE96ACB1ECC39B20078DA64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBE96ACD1ECC39B20078DA64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBE96ACE1ECC39B20078DA64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBE96AD11ECC39B20078DA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBE96AD31ECC39B20078DA64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBE96AD61ECC39B20078DA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBE96AD81ECC39B20078DA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBE96ADF1ECC3B3C0078DA64 /* JLConstraintMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLConstraintMaker.h; sourceTree = "<group>"; };
+		EBE96AE01ECC3B3C0078DA64 /* JLConstraintMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLConstraintMaker.m; sourceTree = "<group>"; };
+		EBE96AE11ECC3B3C0078DA64 /* JLLayoutContraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLLayoutContraint.h; sourceTree = "<group>"; };
+		EBE96AE21ECC3B3C0078DA64 /* UIView+JLAddConstraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JLAddConstraints.h"; sourceTree = "<group>"; };
+		EBE96AE31ECC3B3C0078DA64 /* UIView+JLAddConstraints.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JLAddConstraints.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBE96AC11ECC39B20078DA64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBE96ABB1ECC39B20078DA64 = {
+			isa = PBXGroup;
+			children = (
+				EBE96AC61ECC39B20078DA64 /* JLLayoutConstraint */,
+				EBE96AC51ECC39B20078DA64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBE96AC51ECC39B20078DA64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBE96AC41ECC39B20078DA64 /* JLLayoutConstraint.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBE96AC61ECC39B20078DA64 /* JLLayoutConstraint */ = {
+			isa = PBXGroup;
+			children = (
+				EBE96ADE1ECC3B3C0078DA64 /* JLLayoutConstraint */,
+				EBE96ACA1ECC39B20078DA64 /* AppDelegate.h */,
+				EBE96ACB1ECC39B20078DA64 /* AppDelegate.m */,
+				EBE96ACD1ECC39B20078DA64 /* ViewController.h */,
+				EBE96ACE1ECC39B20078DA64 /* ViewController.m */,
+				EBE96AD01ECC39B20078DA64 /* Main.storyboard */,
+				EBE96AD31ECC39B20078DA64 /* Assets.xcassets */,
+				EBE96AD51ECC39B20078DA64 /* LaunchScreen.storyboard */,
+				EBE96AD81ECC39B20078DA64 /* Info.plist */,
+				EBE96AC71ECC39B20078DA64 /* Supporting Files */,
+			);
+			path = JLLayoutConstraint;
+			sourceTree = "<group>";
+		};
+		EBE96AC71ECC39B20078DA64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBE96AC81ECC39B20078DA64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBE96ADE1ECC3B3C0078DA64 /* JLLayoutConstraint */ = {
+			isa = PBXGroup;
+			children = (
+				EBE96ADF1ECC3B3C0078DA64 /* JLConstraintMaker.h */,
+				EBE96AE01ECC3B3C0078DA64 /* JLConstraintMaker.m */,
+				EBE96AE11ECC3B3C0078DA64 /* JLLayoutContraint.h */,
+				EBE96AE21ECC3B3C0078DA64 /* UIView+JLAddConstraints.h */,
+				EBE96AE31ECC3B3C0078DA64 /* UIView+JLAddConstraints.m */,
+			);
+			path = JLLayoutConstraint;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBE96AC31ECC39B20078DA64 /* JLLayoutConstraint */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBE96ADB1ECC39B20078DA64 /* Build configuration list for PBXNativeTarget "JLLayoutConstraint" */;
+			buildPhases = (
+				EBE96AC01ECC39B20078DA64 /* Sources */,
+				EBE96AC11ECC39B20078DA64 /* Frameworks */,
+				EBE96AC21ECC39B20078DA64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JLLayoutConstraint;
+			productName = JLLayoutConstraint;
+			productReference = EBE96AC41ECC39B20078DA64 /* JLLayoutConstraint.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBE96ABC1ECC39B20078DA64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = JimmyLTS;
+				TargetAttributes = {
+					EBE96AC31ECC39B20078DA64 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = XDK267KQ83;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = EBE96ABF1ECC39B20078DA64 /* Build configuration list for PBXProject "JLLayoutConstraint" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBE96ABB1ECC39B20078DA64;
+			productRefGroup = EBE96AC51ECC39B20078DA64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBE96AC31ECC39B20078DA64 /* JLLayoutConstraint */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBE96AC21ECC39B20078DA64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE96AD71ECC39B20078DA64 /* LaunchScreen.storyboard in Resources */,
+				EBE96AD41ECC39B20078DA64 /* Assets.xcassets in Resources */,
+				EBE96AD21ECC39B20078DA64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBE96AC01ECC39B20078DA64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBE96ACF1ECC39B20078DA64 /* ViewController.m in Sources */,
+				EBE96AE51ECC3B3C0078DA64 /* UIView+JLAddConstraints.m in Sources */,
+				EBE96AE41ECC3B3C0078DA64 /* JLConstraintMaker.m in Sources */,
+				EBE96ACC1ECC39B20078DA64 /* AppDelegate.m in Sources */,
+				EBE96AC91ECC39B20078DA64 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EBE96AD01ECC39B20078DA64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE96AD11ECC39B20078DA64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBE96AD51ECC39B20078DA64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBE96AD61ECC39B20078DA64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBE96AD91ECC39B20078DA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBE96ADA1ECC39B20078DA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBE96ADC1ECC39B20078DA64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XDK267KQ83;
+				INFOPLIST_FILE = JLLayoutConstraint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimmylts.JLLayoutConstraint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7e67f3f7-3099-43e9-9307-e63a9ccb9e01";
+				PROVISIONING_PROFILE_SPECIFIER = "XC Wildcard *";
+			};
+			name = Debug;
+		};
+		EBE96ADD1ECC39B20078DA64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = JLLayoutConstraint/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jimmylts.JLLayoutConstraint;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBE96ABF1ECC39B20078DA64 /* Build configuration list for PBXProject "JLLayoutConstraint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE96AD91ECC39B20078DA64 /* Debug */,
+				EBE96ADA1ECC39B20078DA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBE96ADB1ECC39B20078DA64 /* Build configuration list for PBXNativeTarget "JLLayoutConstraint" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBE96ADC1ECC39B20078DA64 /* Debug */,
+				EBE96ADD1ECC39B20078DA64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBE96ABC1ECC39B20078DA64 /* Project object */;
+}
